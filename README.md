@@ -1,7 +1,5 @@
 # Diabetes-Prediction-system
 
-Here’s a detailed description you can use for your GitHub project repository:
-
 ---
 
 ## Diabetes Prediction Web App
