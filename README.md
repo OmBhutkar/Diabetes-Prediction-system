@@ -5,14 +5,13 @@
 ## Diabetes Prediction Web App
 
 ### Overview:
-This project is a web application that predicts the likelihood of a person having diabetes based on a set of medical parameters, such as glucose level, blood pressure, BMI, and more. Built using **Flask** for the backend and **HTML/CSS/JavaScript** for the frontend, the app allows users to input their details, upload a photo, and receive a prediction about whether they have diabetes or not. Additionally, the app generates a **PDF report** summarizing the prediction and suggesting precautions and medications.
+This project is a web application that predicts the likelihood of a person having diabetes based on a set of medical parameters, such as glucose level, blood pressure, BMI, and more. Built using **Flask** for the backend and **HTML/CSS/JavaScript** for the frontend, the app allows users to input their details and receive a prediction about whether they have diabetes or not. Additionally, the app generates a **PDF report** summarizing the prediction and suggesting precautions and medications.
 
 ### Features:
 - **User Input**: The application takes in various medical parameters like pregnancies, glucose, blood pressure, insulin levels, BMI, and age through an easy-to-use form.
 - **Prediction Model**: A **Random Forest** classifier, trained on a diabetes dataset, predicts whether the user has diabetes based on the input data.
 - **PDF Report Generation**: After prediction, a PDF report is generated, containing the user’s input data, prediction result, precautions, and suggested medications.
 - **Downloadable Report**: The generated report can be downloaded via a direct link.
-- **Photo Upload**: Users can upload a photo as part of the form submission (though not used for prediction purposes, the photo is displayed alongside the prediction result).
 - **Responsive Design**: The frontend layout adjusts automatically for different screen sizes, with the uploaded photo displayed in the top-right corner for easy access.
 
 ### Tech Stack:
